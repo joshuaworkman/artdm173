@@ -1,0 +1,18 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+
+
+
+
+.shape{
+    float: left;
+    height: 200px;
+    width: 200px;
+    shape-outside: circle(25%);
+    shape-margin: 1rem;
+    clip-path: circle(25%);
+    background-image: url("https://artdm173.joshuaworkman.com/file-size-lab/images/small-116.jpg.webp");
+}
+

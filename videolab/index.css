@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+nav>ul{
+    justify-content: space-evenly;
+    list-style: none;
+    display: flex;
+
+}
+
+nav{
+    margin: 1rem;
+    padding: 16px;
+    background-color: #E85F5C;
+    color: white;
+    font-size: large;
+    height: 100px;
+    text-align: center;
+}
+
+body{
+    background-image: url("https://artdm173.joshuaworkman.com/videolab/images/istockphoto-534129810-170667a.jpg");
+    background-color:#FBCAEF ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+body:before{
+    background-color:#FBCAEF ;
+    content:" ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+
+
+video{
+    width: 50%;
+    padding: 2rem
+
+}
+
+.videocontainer{
+    display: flex;
+    background-color: #37515F;
+    justify-content: center;
+}
+.PUNK{
+    color:#ACF39D ;
+}
+.PUNK h1{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+h1{
+    font-size:6rem;
+}
+
+.TACTICS{
+    color:aqua;
+    align-items:flex-end ;
+    display: flex;
+    margin:-8rem;
+    padding-left: 10rem;
+}
