@@ -1,0 +1,63 @@
+@media only screen and (max-width: 1200px) {
+    .dog{
+        visibility: hidden;
+    }
+}
+
+nav>ul{
+    justify-content: space-evenly;
+    list-style: none;
+    display: flex;
+
+}
+
+nav{
+    margin: 1rem;
+    padding: 16px;
+    background-color: #E85F5C;
+    color: white;
+    font-size: large;
+    height: 100px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    margin: 6rem;
+    background-color: #E85F5C;
+    padding: 1rem;
+    padding-bottom: 0;
+    height: 300px;
+    align-items: flex-end;
+}
+
+
+h1{
+    font-size: clamp(2rem, 5vw, 5rem);
+}
+
+.thoughts{
+    position: relative;
+    top: -13rem;
+    left: -4rem;
+
+}
+.dog{
+    overflow: visible;
+    width: auto;
+    height: 600px;
+
+}
+
+.artist{
+    position: relative;
+    bottom: -7rem;
+    left: -8rem;
+}
+
+p{
+    width: 60ch;
+    font-size:max(.8vw, 50%);
+}
